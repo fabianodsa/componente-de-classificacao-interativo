@@ -1,0 +1,66 @@
+body {
+    background: #1C1C1C;
+    font-size: 16px;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+}
+
+p {
+    text-align: center;
+    font-size: 30px;
+}
+
+main {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: #363636;
+    width: 40vw;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.numeros {
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    width: 70%;
+    text-align: center;
+    padding: 30px;
+    margin: auto;
+    align-items: center;
+}
+
+.digito {
+    background: #4F4F4F;
+    border-radius: 70px 70px 70px 70px;
+    cursor: pointer;
+    width: 70px;
+    display: flexbox;
+    font-size: 40px;
+}
+
+.botaoEnviar {
+    text-align: center;
+    padding: 20px;
+}
+
+#botao {
+    font-size: 25px;
+    border-radius: 20px 20px;
+    width: 60%;
+    height: 50px;
+    cursor: pointer;
+    background-color: darkorange;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
