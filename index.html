@@ -10,23 +10,22 @@
 <body>
     <main>
         <div class="container">
-            <div class="icon"> 
-                colocar uma imagem
-            </div>
             <div class="texto">
-                <h1>Avaliaçao</h1>
+                <h1>Avaliação</h1>
                 <p>Como você avalia o nosso atendimento?</p>
             </div>
         <div class="numeros"> 
-            <div class="digito">1</div>
-            <div class="digito">2</div>
-            <div class="digito">3</div>
-            <div class="digito">4</div>
-            <div class="digito">5</div>
+            <button id="digito1">1</button>
+            <button id="digito2">2</button>
+            <button id="digito3">3</button>
+            <button id="digito4">4</button>
+            <button id="digito5">5</button>
         </div>
+            <div class="display" id="display"></div>
         <div class="botaoEnviar">
-            <button id="botao">Enviar</button>
+            <button onclick="clique()" id="botao">Enviar</button>
         </div>
     </main>
+    <script src="js/main.js"></script>
 </body>
 </html>
