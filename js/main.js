@@ -11,19 +11,6 @@ const inserirNumero = (evento) => display.textContent = evento.target.textConten
 
 notaSelecionada.forEach (notaSelecionada => notaSelecionada.addEventListener('click', inserirNumero));
 
-// let armazenaNumero = notaSelecionada;
-
-// const guardarNumero = (evento) => {
-//     armazenaNumero = display.textContent;
-// }
-
-
-// function armazenaNumero (armazenaNumero) {
-//     if notaSelecionada == 1 {
-//         return "Você selecionou 1";
-//     }
-// }
-
-botaoEnviarNota.addEventListener('click', () => {
-    alert("Você enviou a sua avaliação. Obrigado!")
-})
+function armazenaNota() {
+    alert("Você selecionou a nota "  +  display.textContent  +   ".  Obrigado pela sua avaliação!");
+}
